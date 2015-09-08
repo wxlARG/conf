@@ -3,3 +3,9 @@
 	email = wxl890206@126.com
 [core]
 	editor = vim
+	excludesfile = /root/.gitignore
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
