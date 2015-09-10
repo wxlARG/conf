@@ -1,3 +1,4 @@
+set nocompatible
 syntax on
 set cindent
 set tabstop=4
@@ -27,5 +28,5 @@ inoremap <C-j> <ESC>gta
 
 
 if has("autocmd")
-"    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe normal! g'\"" | endif
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
