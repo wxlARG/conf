@@ -1,5 +1,6 @@
 set nocompatible
 syntax on
+set backspace=indent,eol,start
 set cindent
 set tabstop=4
 set softtabstop=4
