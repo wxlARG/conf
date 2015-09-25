@@ -13,11 +13,11 @@ set cino+=)50,(s,m1
 let Tlist_Show_One_File=1 
 let Tlist_Exit_OnlyWindow=1
 
-nnoremap <C-e> :tabnew
+nnoremap <C-e> :tabnew  
 nnoremap <C-j> gT
 nnoremap <C-k> gt
 
-inoremap <C-e> <ESC>:tabnew
+inoremap <C-e> <ESC>:tabnew  
 inoremap <C-j> <ESC>gTa
 inoremap <C-k> <ESC>gta
 "filetype indent on
